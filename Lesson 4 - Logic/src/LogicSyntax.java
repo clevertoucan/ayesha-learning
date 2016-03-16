@@ -14,22 +14,34 @@ public class LogicSyntax {
 //			System.out.println("This is false.");
 		}
 		
+		if((var ^ foo) ^ foo){
+			System.out.println("This code is executing");
+		}
+		
+//		Practice with the numeric boolean expressions
 		int poop = 2;
 		int loop = 3;
 		
-		if(poop == loop){
-//			System.out.println("poop and loop are the same!");
+		if(poop != loop){
+//			System.out.println("poop and loop are different!");
 		} else {
-//			System.out.println("Nope.");
+//			System.out.println("Poop and loop are the same.");
+		}
+		
+		if((poop > loop) || (poop == loop)){
+//			System.out.println("poop is less than or equal to loop.");
+		}
+		if(poop >= loop){
+//			System.out.println("poop is less than or equal to loop.");
 		}
 		
 		String ayesha = "Aye" + "sha";
-		String josh = "Ayesha";
+		String josh = "Josh";
 		
-		if(ayesha.equals(josh)){
-			System.out.println("Same.");
+		if(!ayesha.equals(josh)){
+//			System.out.println("Josh and Ayesha are different (I'm shocked)");
 		} else {
-			System.out.println("they're different.");
+//			System.out.println("they're the same.");
 		}
 	}
 
