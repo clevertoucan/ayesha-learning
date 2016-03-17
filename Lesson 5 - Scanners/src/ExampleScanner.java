@@ -15,5 +15,7 @@ public class ExampleScanner {
 		String feces = input.nextLine();
 		System.out.println("Josh printed out this String: " + feces);
 		
+		
+		
 	}
 }
