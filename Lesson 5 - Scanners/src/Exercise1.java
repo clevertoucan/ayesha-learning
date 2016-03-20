@@ -7,11 +7,9 @@ public class Exercise1 {
 		 Scanner input = new Scanner(System.in);
 		 String userInput = input.nextLine();
 		  if(userInput.equals("fudge")) {
-			 fruit = "Strawberries";
-			 
-		 } else {
-			 fruit = "Bananas";
-		 }
+			 fruit = "Strawberries"; }
+		  else {
+			 fruit = "Bananas"; }
 		System.out.println("Fruit is :" + fruit);
 		
 		 		
