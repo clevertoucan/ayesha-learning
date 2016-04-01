@@ -25,10 +25,23 @@ public class WhileLoopExample {
 		*/
 		
 		int increment = 0;
+		
+		/*
 		while(increment < 10){
 			System.out.println("This loop has run "+increment+" times.");
 			increment = increment + 1;
+			
 		}
+		*/
+		
+		
+		while(increment < 20){
+			System.out.print("You have eaten "+(increment + 1)+" bags of dicks.");
+			increment = increment + 1; 
+		}
+		
+		
+		
 		
 	}
 
