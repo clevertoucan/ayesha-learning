@@ -1,5 +1,6 @@
 import java.util.Date;
 
+// While loops are useful when you want to run something until a certain event happens
 public class WhileLoopExample {
 
 	public static void main(String[] args) {
