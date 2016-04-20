@@ -15,17 +15,17 @@ public class EverythingWeveLearned {
 	public static void scanPrint() {
 
 		int bark = 1;
-
 		String dog = "";
+
 		Scanner input = new Scanner(System.in);
 
-		while(bark < 20) {
-
+		while(bark <= 20) {
 			bark = bark + 1;
 			String userInput2 = input.nextLine();
-			System.out.print("Blah " + userInput2);
-
+			dog = dog + userInput2;
 
 		}
+
+		System.out.print(dog);
 	}
 }
