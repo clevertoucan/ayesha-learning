@@ -8,6 +8,6 @@ public class StringExercise {
 		
 		System.out.println(cat);
 		System.out.println(thing);
-		System.out.println(thing + " " + cat);
+		System.out.println(thingAndCat);
 	}
 }
