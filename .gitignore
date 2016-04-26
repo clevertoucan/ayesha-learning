@@ -216,3 +216,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+*.name
+.idea/ayesha-learning.iml
+*.xml
+Interlude - Baseball Project/Interlude - Baseball Project.iml
+*.iml
+Lesson 10 - More Operations/out/production/Lesson 10 - More Operations/IntegerDivisionExample.class
+*.class
